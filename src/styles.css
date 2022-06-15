@@ -8,6 +8,12 @@ body{
   box-sizing: border-box;
 }
 
+#root{
+  max-width: 1024px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 .button {
   padding: 13px 29px;
   font-size: 1rem;
@@ -71,11 +77,12 @@ body{
   border-top: 1px solid #ccc;
   display: flex;
   padding: 12px 11px;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 .modal-footer button{
-  justify-self: end;
   padding: 12px 11px;
 }
 
